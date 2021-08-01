@@ -1,0 +1,125 @@
+body {
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+ul {
+	padding-left: 18px;
+}
+
+li {
+	list-style-type: disc;
+	line-height: 30px;
+	color: black;
+	padding-left: 10px;
+}
+
+.first-panel {
+    background-color: #191919;
+    padding: 15px 25px 15px 25px;
+}
+
+.second-panel {
+    background-color: #333;
+    padding: 15px 25px 15px 25px;
+}
+
+.third-panel {
+    padding: 15px 25px;
+	background-color: white;
+}
+
+.third-panel-sub-panel {
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.work-experience-panel {
+    margin-bottom: 40px;
+}
+
+.sub-heading {
+    padding-bottom: 4px;
+    margin-bottom: 14px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    color: #4f90cd;
+    float: left;
+    font-weight: 700;
+    font-size: 20px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+.work-experience-panel-sub-heading {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.work-experience-panel-company {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.work-experience-panel-position {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.skill {
+    background-color: black;
+    border-radius: 6px;
+    margin-right: 12px;
+    padding: 6px 10px 6px 10px;
+    font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	letter-spacing: 2px;
+}
+
+.interest {
+    border-radius: 6px;
+    margin-right: 12px;
+    padding: 6px 10px 6px 10px;
+    font-size: 14px;
+    border: 2px solid #b2b2b2;
+	height: 30px;
+	line-height: 30px;
+}
+
+.personal-project-list-item {
+    font-size: 15px;
+}
+
+.achievement {
+    color: #7c7c7c;
+    font-size: 14px;
+    font-style: italic;
+	margin-top: 12px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.white-text {
+    color: white;
+}
+
+.blue-text {
+    color: #4f90cd;
+}
