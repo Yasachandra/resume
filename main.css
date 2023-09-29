@@ -17,16 +17,16 @@ li {
 
 .first-panel {
     background-color: #191919;
-    padding: 15px 25px 15px 25px;
+    padding: 10px 25px 10px 25px;
 }
 
 .second-panel {
     background-color: #333;
-    padding: 15px 25px 15px 25px;
+    padding: 10px 25px 10px 25px;
 }
 
 .third-panel {
-    padding: 15px 25px;
+    padding: 5px 25px;
 	background-color: white;
 }
 
@@ -36,7 +36,7 @@ li {
 }
 
 .work-experience-panel {
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .sub-heading {
